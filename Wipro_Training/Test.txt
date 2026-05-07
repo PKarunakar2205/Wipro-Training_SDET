@@ -1,0 +1,5 @@
+Java is platform independent
+JavaScript is different from Java
+I am learning Selenium with Java
+C is a basic language
+Python is a dynamically typed programming language
