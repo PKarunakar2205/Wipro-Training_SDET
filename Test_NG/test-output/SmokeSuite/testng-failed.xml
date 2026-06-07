@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smokesuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SmokeTest(failed)">
+    <classes>
+      <class name="Test_ng.Project">
+        <methods>
+          <include name="update_cart_quantity"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- Test_ng.Project -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [Smokesuite] -->

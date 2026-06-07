@@ -3,16 +3,12 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Testing_practice.Tira_beauty">
+      <class name="Test_ng.Project">
         <methods>
-          <include name="login"/>
-          <include name="afterTest"/>
-          <include name="delete_cart"/>
-          <include name="add_to_cart"/>
-          <include name="new_tab_function"/>
-          <include name="beforeTest"/>
+          <include name="update_cart_quantity"/>
+          <include name="beforeclass"/>
         </methods>
-      </class> <!-- Testing_practice.Tira_beauty -->
+      </class> <!-- Test_ng.Project -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

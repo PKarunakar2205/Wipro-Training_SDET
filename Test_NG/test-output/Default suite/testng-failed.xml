@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testing_practice.SearchFilpkart">
+      <class name="Test_ng.Project">
         <methods>
-          <include name="validateSearch" invocation-numbers="1 4"/>
+          <include name="update_cart_quantity"/>
+          <include name="registration"/>
+          <include name="beforeclass"/>
+          <include name="login"/>
+          <include name="sort_products"/>
         </methods>
-      </class> <!-- Testing_practice.SearchFilpkart -->
+      </class> <!-- Test_ng.Project -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

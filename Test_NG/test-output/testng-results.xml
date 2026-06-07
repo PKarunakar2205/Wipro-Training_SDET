@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-21T17:08:24 IST" name="GroupSuite" finished-at="2026-05-21T17:09:35 IST" duration-ms="71286">
+  <suite started-at="2026-05-24T10:37:29 IST" name="RegressionSuite" finished-at="2026-05-24T10:37:48 IST" duration-ms="18803">
     <groups>
+      <group name="Regression">
+        <method signature="Project.sort_products()[pri:3, instance:Test_ng.Project@3857f613]" name="sort_products" class="Test_ng.Project"/>
+        <method signature="Project.update_cart_quantity()[pri:4, instance:Test_ng.Project@3857f613]" name="update_cart_quantity" class="Test_ng.Project"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2026-05-21T17:08:24 IST" name="SmokeTests" finished-at="2026-05-21T17:09:35 IST" duration-ms="71286">
-      <class name="Testing_practice.Tira_beauty">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testing_practice.Tira_beauty@40005471]" started-at="2026-05-21T17:08:24 IST" name="setup" finished-at="2026-05-21T17:09:18 IST" duration-ms="54746" status="PASS">
+    <test started-at="2026-05-24T10:37:29 IST" name="RegressionTests" finished-at="2026-05-24T10:37:48 IST" duration-ms="18803">
+      <class name="Test_ng.Project">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Test_ng.Project@3857f613]" started-at="2026-05-24T10:37:29 IST" name="beforeclass" finished-at="2026-05-24T10:37:37 IST" duration-ms="8330" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="searchProduct()[pri:1, instance:Testing_practice.Tira_beauty@40005471]" started-at="2026-05-21T17:09:22 IST" name="searchProduct" finished-at="2026-05-21T17:09:29 IST" duration-ms="7701" status="PASS">
+        </test-method> <!-- beforeclass -->
+        <test-method signature="sort_products()[pri:3, instance:Test_ng.Project@3857f613]" started-at="2026-05-24T10:37:38 IST" name="sort_products" finished-at="2026-05-24T10:37:41 IST" duration-ms="3721" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method signature="verifyTitle()[pri:2, instance:Testing_practice.Tira_beauty@40005471]" started-at="2026-05-21T17:09:29 IST" name="verifyTitle" finished-at="2026-05-21T17:09:30 IST" duration-ms="230" status="PASS">
+        </test-method> <!-- sort_products -->
+        <test-method signature="update_cart_quantity()[pri:4, instance:Test_ng.Project@3857f613]" started-at="2026-05-24T10:37:41 IST" name="update_cart_quantity" finished-at="2026-05-24T10:37:48 IST" duration-ms="6369" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method signature="openCart()[pri:3, instance:Testing_practice.Tira_beauty@40005471]" started-at="2026-05-21T17:09:30 IST" name="openCart" finished-at="2026-05-21T17:09:33 IST" duration-ms="3470" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openCart -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testing_practice.Tira_beauty@40005471]" started-at="2026-05-21T17:09:33 IST" name="closeBrowser" finished-at="2026-05-21T17:09:35 IST" duration-ms="1579" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- Testing_practice.Tira_beauty -->
-    </test> <!-- SmokeTests -->
-  </suite> <!-- GroupSuite -->
+        </test-method> <!-- update_cart_quantity -->
+      </class> <!-- Test_ng.Project -->
+    </test> <!-- RegressionTests -->
+  </suite> <!-- RegressionSuite -->
 </testng-results>
