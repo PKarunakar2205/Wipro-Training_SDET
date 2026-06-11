@@ -32,5 +32,15 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Program Files/Java/jdk-21/lib/jrt-fs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/karun/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar" sourcepath="C:/Users/karun/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="io.cucumber"/>
+			<attribute name="maven.artifactId" value="cucumber-core"/>
+			<attribute name="maven.version" value="7.15.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
