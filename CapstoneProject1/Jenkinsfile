@@ -8,7 +8,7 @@ pipeline {
 
             steps {
 
-                dir('CapstoneProject') {
+                dir('CapstoneProject1') {
 
                     bat 'mvn clean test'
                 }
