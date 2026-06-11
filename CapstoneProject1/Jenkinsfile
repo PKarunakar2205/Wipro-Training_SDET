@@ -1,17 +1,17 @@
 pipeline {
+
     agent any
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/PKarunakar2205/Wipro-Training_SDET.git'
-            }
-        }
-
         stage('Build') {
+
             steps {
-                bat 'mvn clean test'
+
+                dir('CapstoneProject') {
+
+                    bat 'mvn clean test'
+                }
             }
         }
     }
